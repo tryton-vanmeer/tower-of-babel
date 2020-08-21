@@ -3,7 +3,7 @@
 */dotnet/obj
 
 # Rust
-*/Rust/target
+*/rust/target
 
 # Vala
-*/Vala/build
+*/vala/build
