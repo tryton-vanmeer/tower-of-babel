@@ -8,11 +8,15 @@ Each folder is a code example, with specific languages in subfolders.
 
 When in the example's language subfolder.
 
+## .NET Core
+
+`dotnet-sdk` needs to be installed.
+
+`dotnet run`
+
 ## Python
 
 `python3` needs to be installed.
-
-Run the Python script:
 
 `./<pythonexample>.py`
 
