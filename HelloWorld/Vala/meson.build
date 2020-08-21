@@ -7,6 +7,6 @@ dependencies = [
 
 executable(
     'hello-world',
-    files('src/HelloWorld.vala'),
+    files('src/hello-world.vala'),
     dependencies: dependencies
 )
