@@ -10,7 +10,7 @@ When in the example's language subfolder.
 
 ## .NET Core
 
-`dotnet-sdk` needs to be installed.
+`dotnet` needs to be installed.
 
 `dotnet run`
 
