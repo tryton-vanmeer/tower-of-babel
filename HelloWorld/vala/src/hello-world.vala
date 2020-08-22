@@ -1,5 +1,5 @@
 int main(string[] args)
 {
-    print("Hello, World!");
+    print("Hello, World!\n");
     return 0;
 }
