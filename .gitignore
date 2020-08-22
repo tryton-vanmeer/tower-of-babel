@@ -5,6 +5,9 @@
 */dotnet/bin
 */dotnet/obj
 
+# Java
+*/java/build
+
 # Rust
 */rust/target
 
