@@ -20,6 +20,14 @@ Each folder is a code example, with specific languages in subfolders.
 
 **Ubuntu:** https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu
 
+## JavaScript
+
+**Arch Linux:** `pacman -S nodejs`
+
+**Fedora:** `dnf install nodejs`
+
+**Ubuntu:** `apt install nodejs`
+
 ## Julia
 
 **Arch Linux:** `pacman -S julia`
@@ -59,6 +67,10 @@ When in the example's language subfolder:
 ## .NET Core
 
 `dotnet run`
+
+## JavaScript
+
+`./<js-example>.js`
 
 ## Julia
 
