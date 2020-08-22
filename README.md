@@ -76,7 +76,6 @@ When in the example's language subfolder:
 
 ```
 meson build
-cd build
-ninja
-./<vala-example>
+ninja -C build
+./build/<vala-example>
 ```
