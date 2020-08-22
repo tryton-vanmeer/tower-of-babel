@@ -20,6 +20,14 @@ Each folder is a code example, with specific languages in subfolders.
 
 **Ubuntu:** https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu
 
+## Julia
+
+**Arch Linux:** `pacman -S julia`
+
+**Fedora:** `dnf install julia`
+
+**Ubuntu:** `apt install julia`
+
 ## Python
 
 **Arch Linux:** `pacman -S python3`
@@ -52,9 +60,13 @@ When in the example's language subfolder:
 
 `dotnet run`
 
+## Julia
+
+`./<julia-example>.py`
+
 ## Python
 
-`./<pythonexample>.py`
+`./<python-example>.py`
 
 ## Rust
 
@@ -66,5 +78,5 @@ When in the example's language subfolder:
 meson build
 cd build
 ninja
-./<valaexample>
+./<vala-example>
 ```
