@@ -64,6 +64,14 @@ Each folder is a code example, with specific languages in subfolders.
 
 When in the example's language subfolder:
 
+## C
+
+```
+meson build
+ninja -C build
+./build/<c-example>
+```
+
 ## .NET Core
 
 `dotnet run`
