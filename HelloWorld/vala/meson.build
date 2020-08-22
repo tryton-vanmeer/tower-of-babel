@@ -5,8 +5,4 @@ dependencies = [
     dependency('gobject-2.0')
 ]
 
-executable(
-    'hello-world',
-    files('hello-world.vala'),
-    dependencies: dependencies
-)
+executable('hello-world', 'hello-world.vala', dependencies: dependencies)
