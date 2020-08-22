@@ -20,6 +20,14 @@ Each folder is a code example, with specific languages in subfolders.
 
 **Ubuntu:** https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu
 
+## Java
+
+**Arch Linux:** `pacman -S jdk-openjdk`
+
+**Fedora:** `dnf install java-latest-openjdk-devel`
+
+**Ubuntu:** `apt install openjdk-<version>-jdk`
+
 ## JavaScript
 
 **Arch Linux:** `pacman -S nodejs`
@@ -75,6 +83,14 @@ ninja -C build
 ## .NET Core
 
 `dotnet run`
+
+## Java
+
+```
+meson build
+ninja -C build
+java -jar ./build/<java-example>.jar
+```
 
 ## JavaScript
 
