@@ -6,11 +6,11 @@ Each folder is a code example, with specific languages in subfolders.
 
 # Dependencies
 
-**Arch Linux:** `pacman -S base-devel`
+**Arch Linux:** `pacman -S base-devel meson`
 
-**Fedora:** `dnf groupinstall "Development Tools"`
+**Fedora:** `dnf groupinstall "Development Tools" && dnf install meson`
 
-**Ubuntu:** `apt install build-essential`
+**Ubuntu:** `apt install build-essential meson`
 
 ## .NET Core
 
