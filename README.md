@@ -8,7 +8,7 @@ Each folder is a code example, with specific languages in subfolders.
 
 **Arch Linux:** `pacman -S base-devel`
 
-**Fedora:** `dnf install `
+**Fedora:** `dnf groupinstall "Development Tools"`
 
 **Ubuntu:** `apt install build-essential`
 
