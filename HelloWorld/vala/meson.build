@@ -1,4 +1,4 @@
-project('Hello, World', 'vala', 'c')
+project('hello-world', 'vala', 'c')
 
 dependencies = [
     dependency('glib-2.0'),
