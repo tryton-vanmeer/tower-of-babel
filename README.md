@@ -4,31 +4,43 @@ Code examples in different languages.
 
 Each folder is a code example, with specific languages in subfolders.
 
-# Running
+# Dependencies
 
-When in the example's language subfolder.
+**Arch Linux:** `pacman -S base-devel`
 
 ## .NET Core
 
-`dotnet` needs to be installed.
+**Arch Linux:** `pacman -S dotnet-sdk`
+
+## Python
+
+**Arch Linux:** `pacman -S python3`
+
+## Rust
+
+**Arch Linux:** `pacman -S rust`
+
+## Vala
+
+**Arch Linux:** `pacman -S vala`
+
+# Running
+
+When in the example's language subfolder:
+
+## .NET Core
 
 `dotnet run`
 
 ## Python
 
-`python3` needs to be installed.
-
 `./<pythonexample>.py`
 
 ## Rust
 
-`rust` needs to be installed.
-
 `cargo run`
 
 ## Vala
-
-`vala` and `meson` needs to be installed.
 
 ```
 meson build
