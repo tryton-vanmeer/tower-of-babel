@@ -1,3 +1,3 @@
 # Hello World
 
-Print `"Hello, World!"` to stdout.
+Print `"Hello, World!(\n)"` to stdout.
