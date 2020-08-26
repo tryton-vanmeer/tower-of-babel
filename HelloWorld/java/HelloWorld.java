@@ -1,6 +1,4 @@
-package HelloWorld.java;
-
-public class Main
+public class HelloWorld
 {
     public static void main(String[] args)
     {
