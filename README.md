@@ -87,9 +87,7 @@ ninja -C build
 ## Java
 
 ```
-meson build
-ninja -C build
-java -jar ./build/<java-example>.jar
+java <java-example>.java
 ```
 
 ## JavaScript
