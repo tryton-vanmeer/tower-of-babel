@@ -1,0 +1,9 @@
+[package]
+name = "fizz_buzz"
+version = "1.0.0"
+authors = ["Tryton Van Meer <trytonvanmeer@protonmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
