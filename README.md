@@ -48,9 +48,9 @@ Each folder is a code example, with specific languages in subfolders.
 
 **Arch Linux:** `pacman -S kotlin`
 
-**Fedora:** `dnf install `
+**Fedora:** N/A
 
-**Ubuntu:** `apt install `
+**Ubuntu:** N/A
 
 ## Python
 
