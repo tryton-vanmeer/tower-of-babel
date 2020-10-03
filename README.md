@@ -44,6 +44,14 @@ Each folder is a code example, with specific languages in subfolders.
 
 **Ubuntu:** `apt install julia`
 
+## Kotlin
+
+**Arch Linux:** `pacman -S kotlin`
+
+**Fedora:** `dnf install `
+
+**Ubuntu:** `apt install `
+
 ## Python
 
 **Arch Linux:** `pacman -S python3`
@@ -97,6 +105,13 @@ java <java-example>.java
 ## Julia
 
 `./<julia-example>.py`
+
+## Kotlin
+
+```
+kotlinc <kotlin-example>.kt -include-runtime -d <kotlin-example>.jar
+java -jar <kotlin-example>.jar
+```
 
 ## Python
 
