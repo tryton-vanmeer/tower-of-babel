@@ -5,6 +5,9 @@
 */dotnet/bin
 */dotnet/obj
 
+# Kotlin
+*/kotlin/*.jar
+
 # Rust
 */rust/target
 
