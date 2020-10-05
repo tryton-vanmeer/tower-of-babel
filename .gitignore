@@ -8,6 +8,9 @@
 # Kotlin
 */kotlin/*.jar
 
+# Python
+.venv
+
 # Rust
 */rust/target
 
