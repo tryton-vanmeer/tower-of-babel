@@ -1,0 +1,8 @@
+[package]
+name = "sdl_square"
+version = "1.0.0"
+authors = ["Tryton Van Meer <trytonvanmeer@protonmail.com>"]
+edition = "2018"
+
+[dependencies]
+sdl2 = "0.34"
