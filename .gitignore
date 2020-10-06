@@ -5,11 +5,6 @@
 */dotnet/bin
 */dotnet/obj
 
-# Java
-*/java/.gradle
-*/java/gradle
-*/java/build
-
 # Kotlin
 */kotlin/*.jar
 
