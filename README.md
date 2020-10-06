@@ -22,11 +22,11 @@ Each folder is a code example, with specific languages in subfolders.
 
 ## Java
 
-**Arch Linux:** `pacman -S jdk-openjdk`
+**Arch Linux:** `pacman -S jdk-openjdk gradle`
 
 **Fedora:** `dnf install java-latest-openjdk-devel`
 
-**Ubuntu:** `apt install openjdk-<version>-jdk`
+**Ubuntu:** `apt install openjdk-<version>-jdk gradle`
 
 ## JavaScript
 
@@ -95,7 +95,9 @@ ninja -C build
 ## Java
 
 ```
-java <java-example>.java
+gradle run
+# or
+./gradlew run
 ```
 
 ## JavaScript
