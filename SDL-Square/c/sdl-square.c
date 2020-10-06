@@ -35,7 +35,6 @@ int main ()
     // Display everything
     SDL_RenderPresent(renderer);
 
-
     // Loop until user quits
     SDL_Event event;
 
@@ -47,7 +46,6 @@ int main ()
         {
             break;
         }
-
     }
 
     // Cleanup before closing
