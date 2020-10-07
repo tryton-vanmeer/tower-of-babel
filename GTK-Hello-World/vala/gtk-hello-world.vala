@@ -11,12 +11,14 @@ public class GtkHelloWorld : Window
         this.destroy.connect(Gtk.main_quit);
 
         this.setup_view();
-        this.setup_signals();
     }
 
     private void setup_view()
     {
         this.hello_button = new Button.with_label("Hello, World");
+        this.hello_button.clicked.connect (() => {
+            this.hello_button.label = "Thank you";
+        });
 
         var hbox = new Box(Orientation.HORIZONTAL, 0);
         hbox.pack_start(this.hello_button, true, false, 0);
@@ -25,13 +27,6 @@ public class GtkHelloWorld : Window
         vbox.pack_start(hbox, true, false, 0);
 
         this.add(vbox);
-    }
-
-    private void setup_signals()
-    {
-        this.hello_button.clicked.connect (() => {
-            this.hello_button.label = "Thank you";
-        });
     }
 
     public static int main(string[] args)
