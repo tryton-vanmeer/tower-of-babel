@@ -20,13 +20,11 @@ public class GtkHelloWorld : Window
 
         var hbox = new Box(Orientation.HORIZONTAL, 0);
 
-        hbox.add(this.hello_button);
-        hbox.set_child_packing(this.hello_button, true, false, 0, PackType.START);
+        hbox.pack_start(this.hello_button, true, false, 0);
 
         var vbox = new Box(Orientation.VERTICAL, 0);
 
-        vbox.add(hbox);
-        vbox.set_child_packing(hbox, true, false, 0, PackType.START);
+        vbox.pack_start(hbox, true, false, 0);
 
         this.add(vbox);
     }
