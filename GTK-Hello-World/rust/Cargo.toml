@@ -1,0 +1,9 @@
+[package]
+name = "gtk-hello-world"
+version = "1.0.0"
+authors = ["Tryton Van Meer <trytonvanmeer@protonmail.com>"]
+edition = "2018"
+
+[dependencies]
+gio = "^0"
+gtk = "^0"
