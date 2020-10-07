@@ -19,11 +19,9 @@ public class GtkHelloWorld : Window
         this.hello_button = new Button.with_label("Hello, World");
 
         var hbox = new Box(Orientation.HORIZONTAL, 0);
-
         hbox.pack_start(this.hello_button, true, false, 0);
 
         var vbox = new Box(Orientation.VERTICAL, 0);
-
         vbox.pack_start(hbox, true, false, 0);
 
         this.add(vbox);
