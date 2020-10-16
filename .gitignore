@@ -1,6 +1,9 @@
 # C
 */c/build
 
+# D
+*/d/build
+
 # dotnet
 */dotnet/bin
 */dotnet/obj
