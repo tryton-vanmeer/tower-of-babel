@@ -12,6 +12,14 @@ Each folder is a code example, with specific languages in subfolders.
 
 **Ubuntu:** `apt install build-essential meson`
 
+## D
+
+**Arch Linux:** `pacman -S ldc`
+
+**Fedora:** `dnf install ldc`
+
+**Ubuntu:** `apt install ldc`
+
 ## .NET Core
 
 **Arch Linux:** `pacman -S dotnet-sdk`
@@ -86,6 +94,14 @@ When in the example's language subfolder:
 meson build
 ninja -C build
 ./build/<c-example>
+```
+
+## D
+
+```
+meson build
+ninja -C build
+./build/<d-example>
 ```
 
 ## .NET Core
