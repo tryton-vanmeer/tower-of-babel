@@ -1,21 +1,2 @@
 # C
-*/c/build
-
-# D
-*/d/build
-
-# dotnet
-*/dotnet/bin
-*/dotnet/obj
-
-# Kotlin
-*/kotlin/*.jar
-
-# Python
-.venv
-
-# Rust
-*/rust/target
-
-# Vala
-*/vala/build
+/c/build
