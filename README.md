@@ -1,10 +1,10 @@
 # Tower of Babel
 
-Code examples in different languages.
-
-Each folder is a code example, with specific languages in subfolders.
+A collection of examples implemented in different languages.
 
 # Dependencies
+
+Basic dependencies for running projects. Look under each language for it's specific runtime and development dependencies.
 
 **Arch Linux:** `pacman -S base-devel meson`
 
@@ -83,66 +83,3 @@ Each folder is a code example, with specific languages in subfolders.
 **Fedora:** `dnf install vala`
 
 **Ubuntu:** `apt install valac`
-
-# Running
-
-When in the example's language subfolder:
-
-## C
-
-```
-meson build
-ninja -C build
-./build/<c-example>
-```
-
-## D
-
-```
-meson build
-ninja -C build
-./build/<d-example>
-```
-
-## .NET Core
-
-`dotnet run`
-
-## Java
-
-```
-gradle run
-# or
-./gradlew run
-```
-
-## JavaScript
-
-`./<js-example>.js`
-
-## Julia
-
-`./<julia-example>.py`
-
-## Kotlin
-
-```
-kotlinc <kotlin-example>.kt -include-runtime -d <kotlin-example>.jar
-java -jar <kotlin-example>.jar
-```
-
-## Python
-
-`./<python-example>.py`
-
-## Rust
-
-`cargo run`
-
-## Vala
-
-```
-meson build
-ninja -C build
-./build/<vala-example>
-```
