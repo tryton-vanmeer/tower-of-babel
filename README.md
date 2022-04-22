@@ -4,7 +4,7 @@ A collection of examples implemented in different languages.
 
 # Dependencies
 
-Basic dependencies for running projects. Look under each language for it's specific runtime and development dependencies.
+## Basic Dependencies
 
 **Arch Linux:** `pacman -S base-devel meson`
 
@@ -12,13 +12,9 @@ Basic dependencies for running projects. Look under each language for it's speci
 
 **Ubuntu:** `apt install build-essential meson`
 
-## D
+## Language-specific Dependencies
 
-**Arch Linux:** `pacman -S ldc`
-
-**Fedora:** `dnf install ldc`
-
-**Ubuntu:** `apt install ldc`
+Check the README under each language directory for their dependencies and how to run the code.
 
 ## .NET Core
 
@@ -43,14 +39,6 @@ Basic dependencies for running projects. Look under each language for it's speci
 **Fedora:** `dnf install nodejs`
 
 **Ubuntu:** `apt install nodejs`
-
-## Julia
-
-**Arch Linux:** `pacman -S julia`
-
-**Fedora:** `dnf install julia`
-
-**Ubuntu:** `apt install julia`
 
 ## Kotlin
 
