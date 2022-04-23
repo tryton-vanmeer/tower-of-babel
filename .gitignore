@@ -1,3 +1,6 @@
 # C
 /C/build
 /C/.cache
+
+# Python
+__pycache__/
