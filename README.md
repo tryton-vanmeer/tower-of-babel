@@ -9,8 +9,8 @@ Instructions in this README and those within each language assume Fedora Linux. 
 For basic build dependencies:
 
 ```shell
-$ dnf groupinstall "Development Tools"
-$ dnf install meson
+# dnf groupinstall "Development Tools"
+# dnf install meson
 ```
 
 ## Language-specific Dependencies
