@@ -4,7 +4,7 @@ A collection of examples implemented in different languages.
 
 # Dependencies
 
-Instructions in this README and those within each language assume Fedora Linux. Make sure to adapt them for your OS or use the provided Containerfiles.
+Instructions in this README and those within each language assume Fedora Linux. Make sure to adapt them for your OS.
 
 For basic build dependencies:
 
