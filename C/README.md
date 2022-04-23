@@ -2,7 +2,7 @@
 
 ## Building
 
-```shell
+```
 $ meson build
 $ cd build
 $ ninja
@@ -10,7 +10,8 @@ $ ninja
 
 ## Running
 
-```shell
-# in build/
+Inside `build/`
+
+```
 $ ./<name-of-example>
 ```
