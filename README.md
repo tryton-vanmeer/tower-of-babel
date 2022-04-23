@@ -4,13 +4,14 @@ A collection of examples implemented in different languages.
 
 # Dependencies
 
-## Basic Dependencies
+Instructions in this README and those within each language assume Fedora Linux. Make sure to adapt them for your OS or use the provided Containerfiles.
 
-**Arch Linux:** `pacman -S base-devel meson`
+For basic build dependencies:
 
-**Fedora:** `dnf groupinstall "Development Tools" && dnf install meson`
-
-**Ubuntu:** `apt install build-essential meson`
+```shell
+$ dnf groupinstall "Development Tools"
+$ dnf install meson
+```
 
 ## Language-specific Dependencies
 
@@ -47,14 +48,6 @@ Check the README under each language directory for their dependencies and how to
 **Fedora:** N/A
 
 **Ubuntu:** N/A
-
-## Python
-
-**Arch Linux:** `pacman -S python3`
-
-**Fedora:** `dnf install python3`
-
-**Ubuntu:** `apt install python3`
 
 ## Rust
 
