@@ -11,5 +11,5 @@ Poetry is used for managing the virtualenvs for dependencies not packaged.
 ## Running
 
 ```
-$ ./<name-of-example>
+$ poetry run ./<name-of-example>
 ```
