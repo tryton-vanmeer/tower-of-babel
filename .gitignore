@@ -2,5 +2,8 @@
 /C/build
 /C/.cache
 
+# D
+/D/build
+
 # Python
 __pycache__/
