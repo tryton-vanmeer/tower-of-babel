@@ -1,9 +1,0 @@
-# C
-/c/build
-/c/.cache
-
-# D
-/d/build
-
-# Python
-__pycache__/
