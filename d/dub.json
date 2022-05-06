@@ -1,0 +1,15 @@
+{
+	"name": "towerofbabel",
+	"targetType": "none",
+	"dependencies": {
+		"towerofbabel:helloworld": "*"
+	},
+	"subPackages": [
+		{
+			"name": "helloworld",
+			"targetType": "executable",
+			"sourcePaths": ["helloworld"],
+			"importPaths": ["helloworld"]
+		}
+	]
+}

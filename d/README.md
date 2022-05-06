@@ -7,16 +7,11 @@
 ## Building
 
 ```
-$ meson build
-$ cd build
-$ ninja
+$ dub build
 ```
 
 ## Running
 
-Inside `build/`
-
 ```
-$ ./<name-of-example>
+$ ./towerofbabel_<name-of-example>
 ```
-
