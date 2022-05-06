@@ -1,9 +1,9 @@
 # C
-/C/build
-/C/.cache
+/c/build
+/c/.cache
 
 # D
-/D/build
+/d/build
 
 # Python
 __pycache__/
