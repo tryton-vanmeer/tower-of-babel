@@ -16,3 +16,8 @@ For basic build dependencies:
 ## Language-specific Dependencies
 
 Check the README under each language directory for their dependencies and how to run the code.
+
+## Examples
+
+Refer to [DESIGN](DESIGN.md) for a list of examples this project implements and the description of how
+they should be implemented.
