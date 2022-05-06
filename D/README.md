@@ -1,7 +1,0 @@
-# D
-
-## Dependencies
-
-- `ldc`
-
-## Running
