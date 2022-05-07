@@ -6,15 +6,15 @@ void main()
     {
         if (i % 15 == 0)
         {
-            writeln(i, ": ", "FizzBuzz");
+            writeln(i, ": FizzBuzz");
         }
         else if (i % 3 == 0)
         {
-            writeln(i, ": ", "Fizz");
+            writeln(i, ": Fizz");
         }
         else if (i % 5 == 0)
         {
-            writeln(i, ": ", "Buzz");
+            writeln(i, ": Buzz");
         }
         else
         {
