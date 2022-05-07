@@ -10,6 +10,12 @@
 			"targetType": "executable",
 			"sourcePaths": ["helloworld"],
 			"importPaths": ["helloworld"]
+		},
+		{
+			"name": "fizzbuzz",
+			"targetType": "executable",
+			"sourcePaths": ["fizzbuzz"],
+			"importPaths": ["fizzbuzz"]
 		}
 	]
 }
