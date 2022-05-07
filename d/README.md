@@ -4,12 +4,6 @@
 
 - `ldc`
 
-## Building
-
-```
-$ dub build
-```
-
 ## Running
 
 ```
