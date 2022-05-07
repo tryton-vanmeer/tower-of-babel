@@ -13,5 +13,5 @@ $ dub build
 ## Running
 
 ```
-$ ./towerofbabel_<name-of-example>
+$ dub run :<name-of-example>
 ```
