@@ -4,6 +4,8 @@
 
 - `java-latest-openjdk-devel`
 
-## Building
-
 ## Running
+
+```
+$ java <name-of-example>.java
+```
