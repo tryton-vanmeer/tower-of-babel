@@ -7,5 +7,5 @@
 ## Running
 
 ```
-$ java <name-of-example>.java
+$ gradle <name-of-example>
 ```
