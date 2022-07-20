@@ -3,3 +3,8 @@ plugins {
 }
 
 apply plugin: 'application'
+
+task helloworld(type: JavaExec) {
+    mainClass = 'babel.helloworld.HelloWorld'
+    classpath = sourceSets.main.runtimeClasspath
+}
