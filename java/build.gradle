@@ -8,3 +8,8 @@ task helloworld(type: JavaExec) {
     mainClass = 'babel.helloworld.HelloWorld'
     classpath = sourceSets.main.runtimeClasspath
 }
+
+task fizzbuzz(type: JavaExec) {
+    mainClass = 'babel.fizzbuzz.FizzBuzz'
+    classpath = sourceSets.main.runtimeClasspath
+}

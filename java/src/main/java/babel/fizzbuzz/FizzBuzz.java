@@ -1,3 +1,5 @@
+package babel.fizzbuzz;
+
 import java.util.stream.IntStream;
 
 public class FizzBuzz {
