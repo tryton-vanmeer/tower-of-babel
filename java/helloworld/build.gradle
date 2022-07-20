@@ -1,0 +1,3 @@
+application {
+    mainClass = "towerbabel.helloworld.HelloWorld"
+}
