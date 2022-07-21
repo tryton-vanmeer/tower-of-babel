@@ -4,6 +4,8 @@ plugins {
 
 apply plugin: 'application'
 
+sourceCompatibility = '1.8'
+
 task helloworld(type: JavaExec) {
     mainClass = 'babel.helloworld.HelloWorld'
     classpath = sourceSets.main.runtimeClasspath
