@@ -5,17 +5,11 @@ import json
 
 
 def greet(args):
-    if args.json:
-        print(json.dumps({"interjection": args.greeting, "name": args.name}, indent=2))
-    else:
-        print(f"{args.greeting.capitalize()}, {args.name}")
+    print(f"{args.greeting.capitalize()}, {args.name}")
 
 
 def goodbye(args):
-    if args.json:
-        print(json.dumps({"interjection": "goodbye", "name": args.name}, indent=2))
-    else:
-        print(f"Goodbye, {args.name}")
+    print(f"{args.greeting.capitalize()}, {args.name}")
 
 
 if __name__ == "__main__":
@@ -32,9 +26,6 @@ if __name__ == "__main__":
 
     parser_greet.add_argument("name", metavar="NAME", type=str)
     parser_goodbye.add_argument("name", metavar="NAME", type=str)
-
-    parser_greet.add_argument("--json", action="store_true")
-    parser_goodbye.add_argument("--json", action="store_true")
 
     args = parser.parse_args()
     args.func(args)

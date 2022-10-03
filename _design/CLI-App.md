@@ -9,9 +9,6 @@ Should support the following commands:
   - prints `Hello, $NAME`, `Hi, $NAME` and `Hey, $NAME`
 - `goodbye` <NAME>
   - prints `Goodbye, $NAME`
-- The above should accept a `--json` flag
-  - print a JSON formatted string
-  - {"interjection": "hello", "name": "$name"}
 
 The app should explain the commands and flags when given `--help` / `-h`.
 
@@ -32,10 +29,4 @@ Hey, Jessica
 
 > cli-app goodbye Jane
 Goodbye, Jane
-
-> cli-app hello --json Bob
-{
-  "interjection": "hello",
-  "name": "Bob"
-}
 ```
