@@ -1,0 +1,9 @@
+{
+	"authors": [
+		"Tryton Van Meer"
+	],
+	"copyright": "Copyright © 2022, Tryton Van Meer",
+	"description": "A minimal D application.",
+	"license": "GPL-3.0",
+	"name": "hello-world"
+}
