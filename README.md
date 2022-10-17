@@ -4,7 +4,7 @@ A collection of examples implemented in different languages.
 
 # Dependencies
 
-Instructions in this README and those within each language assume Fedora Linux. Make sure to adapt them for your OS.
+Instructions in READMEs assume Fedora Linux. Make sure to adapt them for your OS.
 
 For basic build dependencies:
 
@@ -13,11 +13,10 @@ For basic build dependencies:
 # dnf install meson
 ```
 
-## Language-specific Dependencies
+# Examples
 
-Check the README under each language directory for their dependencies and how to run the code.
+`<example>/README.md` details design of the example and what it should do when ran.
 
-## Examples
+# Running
 
-Refer to the `_design` directory for a list of examples this project implements and the description of how
-they should be implemented.
+`HelloWorld/<language>/README.md` contains language-specific dependencies and instructions for how to build & run any example for that language.
