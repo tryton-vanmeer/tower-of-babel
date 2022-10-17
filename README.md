@@ -13,10 +13,6 @@ For basic build dependencies:
 # dnf install meson
 ```
 
-# Examples
-
-`<example>/README.md` details design of the example and what it should do when ran.
-
 # Running
 
-`HelloWorld/<language>/README.md` contains language-specific dependencies and instructions for how to build & run any example for that language.
+`HelloWorld/<language>/README.md` contains dependencies and instructions for how to build & run any example for that language.
