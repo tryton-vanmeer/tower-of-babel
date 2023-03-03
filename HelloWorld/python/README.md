@@ -1,0 +1,5 @@
+# Python
+
+## Running
+
+`./main.py`
