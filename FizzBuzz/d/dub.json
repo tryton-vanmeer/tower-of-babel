@@ -1,0 +1,9 @@
+{
+	"authors": [
+		"Tryton Van Meer"
+	],
+	"copyright": "Copyright © 2023, Tryton Van Meer",
+	"description": "Tower of Babel FizzBuzz.",
+	"license": "GPL-3.0",
+	"name": "fizzbuzz"
+}
