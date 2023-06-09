@@ -1,0 +1,36 @@
+{
+  "folders": [
+    {
+      "name": "c",
+      "path": "c"
+    },
+    {
+      "name": "d",
+      "path": "d"
+    },
+    {
+      "name": "dotnet",
+      "path": "dotnet"
+    },
+    {
+      "name": "golang",
+      "path": "golang"
+    },
+    {
+      "name": "java",
+      "path": "java"
+    },
+    {
+      "name": "javascript",
+      "path": "javascript"
+    },
+    {
+      "name": "python",
+      "path": "python"
+    },
+    {
+      "name": "rust",
+      "path": "rust"
+    }
+  ]
+}
