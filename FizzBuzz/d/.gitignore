@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/fizzbuzz
+fizzbuzz.so
+fizzbuzz.dylib
+fizzbuzz.dll
+fizzbuzz.a
+fizzbuzz.lib
+fizzbuzz-test-*
+*.exe
+*.o
+*.obj
+*.lst
