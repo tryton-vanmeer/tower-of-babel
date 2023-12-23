@@ -14,7 +14,7 @@
     },
     {
       "name": "FizzBuzz (Go)",
-      "path": "../FizzBuzz/golang"
+      "path": "../FizzBuzz/go"
     },
     {
       "name": "FizzBuzz (Java)",
@@ -46,7 +46,7 @@
     },
     {
       "name": "Hello World (Go)",
-      "path": "../HelloWorld/golang"
+      "path": "../HelloWorld/go"
     },
     {
       "name": "Hello World (Java)",
