@@ -1,0 +1,68 @@
+{
+  "folders": [
+    {
+      "name": "FizzBuzz (C)",
+      "path": "../FizzBuzz/c"
+    },
+    {
+      "name": "FizzBuzz (D)",
+      "path": "../FizzBuzz/d"
+    },
+    {
+      "name": "FizzBuzz (DotNet)",
+      "path": "../FizzBuzz/dotnet"
+    },
+    {
+      "name": "FizzBuzz (Go)",
+      "path": "../FizzBuzz/golang"
+    },
+    {
+      "name": "FizzBuzz (Java)",
+      "path": "../FizzBuzz/java"
+    },
+    {
+      "name": "FizzBuzz (JavaScript)",
+      "path": "../FizzBuzz/javascript"
+    },
+    {
+      "name": "FizzBuzz (Python)",
+      "path": "../FizzBuzz/python"
+    },
+    {
+      "name": "FizzBuzz (rust)",
+      "path": "../FizzBuzz/rust"
+    },
+    {
+      "name": "Hello World (C)",
+      "path": "../HelloWorld/c"
+    },
+    {
+      "name": "Hello World (D)",
+      "path": "../HelloWorld/d"
+    },
+    {
+      "name": "Hello World (DotNet)",
+      "path": "../HelloWorld/dotnet"
+    },
+    {
+      "name": "Hello World (Go)",
+      "path": "../HelloWorld/golang"
+    },
+    {
+      "name": "Hello World (Java)",
+      "path": "../HelloWorld/java"
+    },
+    {
+      "name": "Hello World (JavaScript)",
+      "path": "../HelloWorld/javascript"
+    },
+    {
+      "name": "Hello World (Python)",
+      "path": "../HelloWorld/python"
+    },
+    {
+      "name": "Hello World (rust)",
+      "path": "../HelloWorld/rust"
+    }
+  ]
+}
